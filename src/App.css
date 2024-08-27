@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 1vw 8vw;
+    font-family: sans-serif;
+    background-color: #05081c;
+    color: white;
+}
+
+nav {
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+nav button {
+    padding: 0.7vw 1vw;
+    border-radius: 3vw;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+main {
+    /* background-color: yellow; */
+}
+
+main .fiction-div {
+    color: white;
+    height: 31vh;
+    padding: 2vw 0vw 0vw 0vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main .fiction-div h2 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+main .fiction-div ul {
+    list-style: none;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .fiction-div ul li {
+    text-align: center;
+    padding: 0vw 2vw;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 8vh;
+    width: 15vw;
+    color: white;
+    cursor: pointer;
+}
+
+main .fiction-div ul .li-first {
+    gap: 1vw;
+    width: 10vw;
+    background-color: #1e84fe;
+}
+
+main .fiction-div ul .li-second {
+    padding: 0vw 1.5vw;
+    background-color: #fcbe23;
+    gap: 1.5vw;
+}
+
+main .fiction-div ul .li-third {
+    gap: 1.5vw;
+    background-color: #18ff59;
+}
+
+main .fiction-div ul .li-fourth {
+    background-color: blue;
+    width: 9vw;
+}
+
+main .fiction-div ul li img {
+    height: 4vh;
+}
+
+main .card-div {
+    padding: 1vw 0vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main .card-div .card {
+    padding: 0.5vw;
+    margin-top: 2vw;
+    width: 20vw;
+    height: 54vh;
+    border-radius: 1vw;
+}
+
+main .card-div .card .card-title {
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+
+.card img {
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+
+main .card-div .card button {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+/* Second Page  */
+
+main .city {
+    color: white;
+    height: 29vh;
+    padding: 2vw 0vw 0vw 0vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main .city span {
+    display: flex;
+}
+
+main .city span p {
+    font-size: 4vw;
+}
+
+main .city div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .city div button {
+    height: 8vh;
+    width: 18vw;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .city div button img {
+    height: 4vh;
+}
+
+main .blocks {
+    margin-top: 6vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main .blocks .drag {
+    font-size: 1.2vw;
+}
+
+main .blocks .sections {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .blocks .sections .first-div {
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+main .blocks .sections .first-div div {
+    border: 1px solid blue;
+    padding: 0.8vw;
+}
+
+main .blocks .sections .first-div h2 {
+    font-size: 1.5vw;
+}
+
+main .blocks .sections .first-div p {
+    font-size: 0.8vw;
+}
+
+main .blocks .sections .first-div img {
+    height: 40vh;
+    width: 100%;
+}
+
+main .blocks .sections .first-div span {
+    display: flex;
+}
+
+.danger {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.second-div {
+    height: 70vh;
+    width: 55%;
+    display: flex;
+    padding: 0;
+    border: 1px solid;
+}
