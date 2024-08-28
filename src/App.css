@@ -5,6 +5,7 @@
 }
 
 body {
+    position: relative;
     min-height: 100vh;
     width: 100vw;
     padding: 1vw 8vw;
@@ -29,16 +30,16 @@ nav ul {
     width: 40vw;
 }
 
+nav ul li {
+    cursor: pointer;
+}
+
 nav button {
+    background-image: linear-gradient(to left, #29bcee, #6638e8);
     padding: 0.7vw 1vw;
     border-radius: 3vw;
     border: none;
-    background-color: red;
     color: white;
-}
-
-main {
-    /* background-color: yellow; */
 }
 
 main .fiction-div {
@@ -96,7 +97,7 @@ main .fiction-div ul .li-third {
 }
 
 main .fiction-div ul .li-fourth {
-    background-color: blue;
+    background-image: linear-gradient(to left, #29bcee, #6638e8);
     width: 9vw;
 }
 
@@ -114,6 +115,7 @@ main .card-div {
 }
 
 main .card-div .card {
+    background-image: linear-gradient(to left, #29bcee, #6638e8);
     padding: 0.5vw;
     margin-top: 2vw;
     width: 20vw;
@@ -122,7 +124,7 @@ main .card-div .card {
 }
 
 main .card-div .card .card-title {
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     font-weight: 700;
 }
 
@@ -135,8 +137,18 @@ main .card-div .card .card-title {
 main .card-div .card button {
     width: 100%;
     background-color: white;
-    border: 1px solid black;
-    color: black;
+}
+
+main .card-div .card .btn-new {
+    color: #1e84fe;
+}
+
+main .card-div .card .btn-in-progress {
+    color: #fcbe23;
+}
+
+main .card-div .card .btn-completed {
+    color: #18ff59;
 }
 
 /* Second Page  */
@@ -208,8 +220,15 @@ main .blocks .sections .first-div {
     flex-direction: column;
 }
 
+.first-div h2 {
+    width: 30vh;
+    background-image: linear-gradient(to left, #29bcee, #6638e8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 main .blocks .sections .first-div div {
-    border: 1px solid blue;
+    border: 1px dashed #29bcee;
     padding: 0.8vw;
 }
 
@@ -227,6 +246,7 @@ main .blocks .sections .first-div img {
 }
 
 main .blocks .sections .first-div span {
+    margin-top: 0.3vw;
     display: flex;
 }
 
@@ -239,9 +259,54 @@ main .blocks .sections .first-div span {
 }
 
 .second-div {
-    height: 70vh;
+    border: 1px solid black;
+    height: 80vh;
     width: 55%;
+    gap: 2vw;
     display: flex;
-    padding: 0;
-    border: 1px solid;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
+
+.second-div .card {
+    height: 30vh;
+    width: 22%;
+    padding: 0.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.second-div img {
+    height: 10vw;
+    width: 100%;
+}
+
+.second-div p {
+    margin-top: 1vh;
+    font-size: 0.8vw;
+    text-align: center;
+}
+
+.icons-span{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.story-text{
+    background-color: white;
+    color: black;
+    padding: 1vw;
+}
+
+.sliders{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+

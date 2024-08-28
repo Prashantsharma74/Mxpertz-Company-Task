@@ -5,6 +5,10 @@ import Home from './pages/Home'
 
 function App() {
 
+  // const singleData = (id) => {
+
+  // }
+
   return (
     <Router>
       <Routes>

@@ -11,7 +11,7 @@ function Navbar() {
                 <li>Daily Quote</li>
                 <li>Genre</li>
             </ul>
-            <button>Sign Out</button>
+            <button className='sign'>Sign Out</button>
         </nav>
     )
 }
